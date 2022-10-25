@@ -18,8 +18,9 @@ try:
 except ImportError:
     import pickle  
 
-os.environ['EAI_USERNAME'] = 'xyz2@gmail.com' #username
-os.environ['EAI_PASSWORD'] = 'xyz' #password
+os.environ['EAI_USERNAME'] = 'w.smith78945@gmail.com' #username
+os.environ['EAI_PASSWORD'] = 'Wsmith#789' #password
+
 from expertai.nlapi.cloud.client import ExpertAiClient
 client = ExpertAiClient()
 
